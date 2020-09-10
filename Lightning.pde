@@ -11,13 +11,15 @@ void setup()
   size(300,300);
   background(0);
   strokeWeight(4);
-  fill(65,105,225);
-  ellipse(250, 250, 150, 150);
-  fill(220, 20, 60);
-  ellipse(50, 50, 150, 150);
+  //fill(65,105,225);
+  //ellipse(250, 250, 150, 150);
+  //fill(220, 20, 60);
+  //ellipse(50, 50, 150, 150);
 }
 void draw(){
- stroke(220, 20, 60);
+  fill(205,92,92);
+  ellipse(50, 50, 150, 150);
+  stroke(205,92,92);
  while(endX < 301) {
    endX = startX + (int)(Math.random() * 50);
    endY = startY + (int)(Math.random() * 50);
@@ -25,7 +27,9 @@ void draw(){
    startX = endX;
    startY = endY;
  }
- stroke(65, 105, 225);
+  fill(30,144,255);
+  ellipse(250, 250, 150, 150);
+  stroke(30,144,255);
  while(endX1 < 301) {
    endX1 = startX1 + (int)(Math.random() * 50);
    endY1 = startY1 + (int)(Math.random() * 50);
