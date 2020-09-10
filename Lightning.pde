@@ -2,10 +2,10 @@ int startX = 50;
 int startY = 0;
 int endX = 150;
 int endY = 300;
-int startX1 = 300;
-int startY1 = 300;
-int endX1 = 50;
-int endY1 = 0;
+int startX1 = 50;
+int startY1 = 0;
+int endX1 = 150;
+int endY1 = 300;
 void setup()
 {
   size(300,300);
@@ -36,10 +36,10 @@ void draw(){
 }
 void mousePressed()
 {
- startX = 25;
+ startX = 0;
  startY = 0;
  endX = 0;
- endY = 300;
+ endY = 0;
  startX1 = 0;
  startY1 = 0;
  endX1 = 0;
