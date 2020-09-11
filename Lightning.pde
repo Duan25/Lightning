@@ -11,10 +11,6 @@ void setup()
   size(300,300);
   background(0);
   strokeWeight(4);
-  //fill(65,105,225);
-  //ellipse(250, 250, 150, 150);
-  //fill(220, 20, 60);
-  //ellipse(50, 50, 150, 150);
 }
 void draw(){
   fill(205,92,92);
